@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background: url("https://cdn.wallpapersafari.com/21/73/mohxX1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: helvetica;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+  font: Helvetica;
+  font-size: 16px;
+  font-weight: 800;
+ }
+ input {
+     border: 0;
+     padding: 10px;
+     font-size: 18px;
+     input[type="submit"] {
+     background: grey;
+     color: white;
+   }
+
+circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+   }
