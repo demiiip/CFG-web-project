@@ -11,7 +11,7 @@ body {
   font-size: 30px;
 }
 
-  h1 {
+  h1, h2, h3, h4, h5 {
    font-family: 'Archivo', sans-serif;
    font-weight: 500;
    text-transform: uppercase;
@@ -54,13 +54,6 @@ p {
    /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 33.33%;
-  padding: 2px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+  width: 25%;
+  padding: 48px;
 }
