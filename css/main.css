@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700");
 
+/* Main */
 body {
   text-align: center;
   background: #864aff;
   background-size: cover;
   background-position: center;
-  color: #00fdcb;
+  color: pink;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 30px;
 }
 
+/* Headings */
   h1, h2, h3, h4, h5 {
    font-family: 'Archivo', sans-serif;
    font-weight: 500;
@@ -19,6 +21,7 @@ body {
    font-size: 50px;
   }
 
+/* Navigation Bar */
 ul {
   padding: 20px;
   background: rgba(255, 255, 255, 0.7)
@@ -34,7 +37,7 @@ a {
   color: white;
 }
 
-
+/* Paragraph Characteristics */
 p {
   color: white;
   font: 'Archivo', sans-serif;
@@ -42,6 +45,8 @@ p {
   font-weight: 200;
   text-align: center;
  }
+
+ /* Email Submit Section */
  input {
      border: 0;
      padding: 10px;
@@ -51,7 +56,7 @@ p {
      color: black; }
    }
 
-   /* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Floating Photos */
 .column {
   float: left;
   width: 25%;
