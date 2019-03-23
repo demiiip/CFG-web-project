@@ -6,7 +6,7 @@ body {
   background: #864aff;
   background-size: cover;
   background-position: center;
-  color: pink;
+  color: #ccff15;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 30px;
@@ -25,7 +25,7 @@ body {
   .topnavbar {
     background-color: #864aff;
     overflow: hidden;
-    text-aligh: center;
+    text-align: center;
   }
 
   /* Style the links inside the navigation bar */
@@ -35,19 +35,20 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
-    font-style: oblique;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
   }
 
   /* Change the color of links on hover */
   .topnavbar a:hover {
-    background-color: #0071E2;
-    color: black;
+    background-color: #ccff15;
+    color: blue;
   }
 
   /* Add a color to the active/current link */
   .topnavbar a.active {
-    background-color: #0035E2;
+    background-color: rgba(255,255,255,0);
     color: white;
   }
 
@@ -66,7 +67,7 @@ p {
      font-size: 18px;
      input[type="Submit"] {
      background: grey;
-     color: black; }
+     color: #ccff15; }
    }
 
 /* Floating Photos */
@@ -74,4 +75,8 @@ p {
   float: left;
   width: 25%;
   padding: 48px;
+}
+
+ul {
+  text-align: left;
 }
