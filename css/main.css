@@ -19,21 +19,35 @@ body {
    font-size: 50px;
   }
 
-ul {
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.7)
-  color: white;
-}
+  /* Add background color to the top navigation */
+  .topnavbar {
+    background-color: #864aff;
+    overflow: hidden;
+    text-aligh: center;
+  }
 
-li {
-  display: inline;
-  padding: 0px 10px 0px 10px;
-}
+  /* Style the links inside the navigation bar */
+  .topnavbar a {
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: oblique;
+  }
 
-a {
-  color: white;
-}
+  /* Change the color of links on hover */
+  .topnavbar a:hover {
+    background-color: #0071E2;
+    color: black;
+  }
 
+  /* Add a color to the active/current link */
+  .topnavbar a.active {
+    background-color: #0035E2;
+    color: white;
+  }
 
 p {
   color: white;
