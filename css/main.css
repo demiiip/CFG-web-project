@@ -3,11 +3,7 @@
 /* Main */
 body {
   text-align: center;
-<<<<<<< HEAD
-  background: linear-gradient(to bottom, #33ccff 0%, #0000cc 100%);
-=======
-  background-image: money.jpeg;
->>>>>>> a0d96bc1b575697dc8ca761d162e5f3f67adaddf
+  background: #1E90FF;
   background-size: cover;
   background-position: center;
   color: #ccff15;
@@ -27,7 +23,7 @@ body {
 
   /* Add background color to the top navigation */
   .topnavbar {
-    background-color: #864aff;
+    background-color:#1E90FF;
     overflow: hidden;
     text-align: center;
   }
@@ -74,13 +70,50 @@ p {
      color: #ccff15; }
    }
 
-/* Floating Photos */
-.column {
-  float: left;
-  width: 25%;
-  padding: 48px;
-}
 
 ul {
   text-align: left;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  background:#3B5998;
+  color: white;
+}
+/* Round Buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
