@@ -3,7 +3,7 @@
 /* Main */
 body {
   text-align: center;
-  background-image: url("stock.jpeg");
+  background: linear-gradient(to bottom, #33ccff 0%, #0000cc 100%);
   background-size: cover;
   background-position: center;
   color: #ccff15;
