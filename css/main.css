@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700");
 
 /* Main */
-body {
+.body-background {
   text-align: center;
-  background: #1E90FF;
-  background-size: cover;
+  background: url("../sky.jpg");
+  /* background-size: cover; */
+  max-width: 100%;
+  height: auto;
   background-position: center;
   color: #ccff15;
   font-family: 'Open Sans', sans-serif;
@@ -13,7 +15,7 @@ body {
 }
 
 /* Headings */
-  h1, h2, h3, h4, h5 {
+  .format-header {
    font-family: 'Archivo', sans-serif;
    font-weight: 500;
    text-transform: uppercase;
@@ -76,10 +78,10 @@ ul {
 }
 
 /* Style all font awesome icons */
-.fa {
+ .fa {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  /* width: 50px; */
   text-align: center;
   text-decoration: none;
 }
@@ -98,22 +100,22 @@ ul {
 }
 
 /* Twitter */
-.fa-twitter {
+ .fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
 /* Linkedin */
-.fa-linkedin {
+ .fa-linkedin {
   background:#3B5998;
   color: white;
 }
 /* Round Buttons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
+ .fa {
+  /* padding: 20px; */
+  /* font-size: 30px; */
+  /* width: 100px; */
+  /* text-align: center; */
+  /* text-decoration: none; */
   border-radius: 50%;
 }
