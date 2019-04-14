@@ -4,13 +4,13 @@
 .body-background {
   text-align: center;
   background: url("../sky.jpg");
-  /* background-size: cover; */
+  background-attachment: fixed;
   max-width: 100%;
   height: auto;
   background-position: center;
-  color: white;
+  color: #A9EEF0;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
+  font-weight: 1000;
   font-size: 30px;
 }
 
@@ -20,12 +20,15 @@
    font-weight: 500;
    text-transform: uppercase;
    text-align: center;
-   font-size: 50px;
+   font-size: 70px;
+   background: -webkit-linear-gradient(	#606060,#00CCCC,#000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
 
   /* Add background color to the top navigation */
   .topnavbar {
-    background-color:rgba(255,255,255,0.5);
+    background-color:rgba(255,255,255,0.7);
     overflow: hidden;
     text-align: center;
   }
@@ -33,7 +36,7 @@
   /* Style the links inside the navigation bar */
   .topnavbar a {
     float: center;
-    color: white;
+    color: #2F4F4F;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,22 +47,27 @@
 
   /* Change the color of links on hover */
   .topnavbar a:hover {
-    background-color:	#ADD8E6;
-    color: black;
+    background-color:#00CCCC;
+    color: white;
   }
 
   /* Add a color to the active/current link */
   .topnavbar a.active {
     background-color: rgba(255,255,255,0);
-    color: white;
+    color: #2F4F4F;
   }
 
 p {
-  color: white;
+  color: #272726;
   font: 'Archivo', sans-serif;
   font-size: 25px;
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
+  background-color: rgba(0,204,204,0.5);
+ }
+
+ .row {
+   background-color: rgba(0,204,204,0.5);
  }
 
  /* Email Submit Section */
@@ -68,21 +76,26 @@ p {
      padding: 10px;
      font-size: 18px;
      input[type="Submit"] {
-     background: green;
+     background: grey;
      color: white; }
    }
 
 
 .list {
-  text-align: left;
-  color: white;
-  font-size: 18px;
-  font-weight: 1000;
+  text-align: center;
+  color: 	black;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  font-weight: 400;
+  background-color: rgba(0,204,204,0.4);;
 }
+
 
 .signup {
   font-weight: bolder;
   font-size: 20px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 
@@ -92,7 +105,6 @@ p {
  .fa {
   padding: 20px;
   font-size: 30px;
-  /* width: 50px; */
   text-align: center;
   text-decoration: none;
 }
@@ -123,14 +135,10 @@ p {
 }
 /* Round Buttons */
  .fa {
-  /* padding: 20px; */
-  /* font-size: 30px; */
-  /* width: 100px; */
-  /* text-align: center; */
-  /* text-decoration: none; */
   border-radius: 50%;
 }
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+/* Three image containers */
 .column {
   float: left;
   width: 33.33%;
@@ -151,10 +159,16 @@ figure {
   color: black;
   font-size: smaller;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(0,204,204,0.5);;
   font-weight: 500;
   text-indent: 0;
-  border: thick rgba(255,255,255,0.5) solid;
+  border: thick rgba(0,204,204,0.5); solid;
   margin: 0.5em;
   padding: 0.5em;
+}
+
+button {
+  background-color: #ADFF2F;
+  color: dimgrey;
+  font-weight: 800;
 }
