@@ -33,7 +33,7 @@
     text-align: center;
   }
 
-  /* Style the links inside the navigation bar */
+  /* Style of links inside the navigation bar */
   .topnavbar a {
     float: center;
     color: #2F4F4F;
@@ -45,13 +45,13 @@
     font-size: 30px;
   }
 
-  /* Change the color of links on hover */
+  /*  Color of links on hover */
   .topnavbar a:hover {
     background-color:#00CCCC;
     color: white;
   }
 
-  /* Add a color to the active/current link */
+  /* Color to the active/current link */
   .topnavbar a.active {
     background-color: rgba(255,255,255,0);
     color: #2F4F4F;
@@ -63,11 +63,11 @@ p {
   font-size: 25px;
   font-weight: 400;
   text-align: center;
-  background-color: rgba(0,204,204,0.5);
+  background-color: rgba(255,255,255,0.7);
  }
 
  .row {
-   background-color: rgba(0,204,204,0.5);
+   background-color: rgba(0,204,204,0);
  }
 
  /* Email Submit Section */
@@ -87,7 +87,15 @@ p {
   font-family: 'Open Sans';
   font-size: 25px;
   font-weight: 400;
-  background-color: rgba(0,204,204,0.4);;
+  background-color: rgba(0,204,204,0.7);
+}
+
+h2{
+  font-size: 45px;
+  font-weight: 800;
+  background-color: rgba(0,204,204,0);
+  color: #20B2AA;
+
 }
 
 
@@ -101,7 +109,7 @@ p {
 
 
 
-/* Style all font awesome icons */
+/* Style all  icons */
  .fa {
   padding: 20px;
   font-size: 30px;
@@ -109,12 +117,12 @@ p {
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
+/*  hover effect */
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
-/* Set a specific color for each brand */
+/*  Color for each app */
 
 /* Facebook */
 .fa-facebook {
@@ -133,6 +141,7 @@ p {
   background:#3B5998;
   color: white;
 }
+
 /* Round Buttons */
  .fa {
   border-radius: 50%;
@@ -152,6 +161,7 @@ p {
   display: table;
 }
 
+/* Text box for About us */
 figure {
   float: left;
   width: 31%;
@@ -159,7 +169,7 @@ figure {
   color: black;
   font-size: smaller;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgba(0,204,204,0.5);;
+  background-color: rgba(0,204,204,0.7);;
   font-weight: 500;
   text-indent: 0;
   border: thick rgba(0,204,204,0.5); solid;
@@ -167,6 +177,7 @@ figure {
   padding: 0.5em;
 }
 
+/* Find out More button */
 button {
   background-color: #ADFF2F;
   color: dimgrey;
